@@ -1,0 +1,39 @@
+
+body
+{
+    border: 3px solid black;
+}
+h1{
+    color:red;/*  text color is set to red*/
+    font:italic;
+    text-align: center;
+    background-color: yellow;/*background color is set to yellow*/
+}
+h3{
+    color:green;
+    text-combine-upright: 10px;
+    white-space: 10px;
+}
+p{
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.column{
+    float :left;
+  width: 35%;
+  padding: 5px;
+ 
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+      .image1{
+      border: 5px solid white;
+     float: right; 
+  }

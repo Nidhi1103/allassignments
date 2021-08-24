@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: " ";
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    left: 0px;
+}
+#logo{
+    margin:2px 4px;
+}
+#logo img{
+    margin: 2px 10px;
+    width: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 10px;
+    color: white;
+}
+ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+    top: 0px;
+    left: 0px;
+}
+
+#home::before{
+    content: "";    
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    top: 0px;
+    left: 0px;
+    background:url("../images/one.jpg")no-repeat center/cover;
+    z-index: -1;
+    opacity: 0.80;
+}
+h1{
+    text-decoration: none;
+}
+h2{
+    color: black;
+    text-decoration: white;
+ text-underline-offset: 10px;
+}
+.h-primary{
+    padding: 13px;
+    font-size: 3.5rem;
+    text-decoration: none;
+}
+.h-secondary{
+    padding: 13px;
+    font-size: 2rem;
+}
+#home h1{
+    color: white;
+    text-decoration: none;
+}
+#home p{
+    color: white;
+    font-size: 1.2rem;
+}
+#services{
+    display: flex;
+    margin: 10px;
+    color: black;
+}
+.box{
+    border:2px solid black;
+}
+#services .box{
+    margin: 7px 7px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#services .box img{
+    height: 140px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.client-container{
+    position: relative;
+
+}
+.client-container::before{
+    content: "";    
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    background:url("../images/food.jpg")no-repeat center/cover;
+    z-index: -1;
+    opacity: 0.30;
+}
+#client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-item{
+  margin: 10px;
+}
+footer{
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+.client-item img{
+    width: 120px;
+    margin: 4px 10px;
+    padding: 17px;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-top: 5%;
+    border:2px solid rgb(238,229,229);
+    background-color: red;
+    cursor: pointer;
+}
